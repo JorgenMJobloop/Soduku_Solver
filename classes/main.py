@@ -1,4 +1,4 @@
-#!/env/usr/bin/
+#!/usr/bin/python3
 import soduku_solver
 import time
 
