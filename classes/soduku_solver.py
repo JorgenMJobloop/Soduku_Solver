@@ -63,8 +63,3 @@ def valid_numbers(board, num, pos):
             if board[i][j] == num and (i, j) != pos:
                 return False
     return True
-
-animate_ascii_board(static_board)
-solve_board(static_board)
-print("_______________________")
-animate_ascii_board(static_board)
