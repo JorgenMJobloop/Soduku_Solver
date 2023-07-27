@@ -12,7 +12,7 @@ static_board = [[7,8,0,4,0,0,1,2,0],
 def animate_ascii_board(board):
     for i in range(len(board)):
         if i % 3 == 0 and i != 0:
-            print("------------------------")
+            print("-----------------------")
         for j in range(len(board[0])):
             if j % 3 == 0 and j != 0:
                 print(r" | ", end="")
