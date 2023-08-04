@@ -45,7 +45,7 @@ def solve_board(board):
             board[row][col] = 0
 
     return False
-
+    # comment
 def valid_numbers(board, num, pos):
     for i in range(len(board[0])):
         if board[pos[0]][i] == num and pos[1] != i:
