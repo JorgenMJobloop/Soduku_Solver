@@ -9,6 +9,10 @@ static_board = [[7,8,0,4,0,0,1,2,0],
     [0,4,9,2,0,6,0,0,7]
 ]
 
+user_input_board = input(list("Input numbers: "))
+generate_multiple_new_lists = []
+generate_multiple_new_lists.append(user_input_board)
+
 def animate_ascii_board(board):
     for i in range(len(board)):
         if i % 3 == 0 and i != 0:
